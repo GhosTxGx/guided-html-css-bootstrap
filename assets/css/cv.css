@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, "Lucida Grande", sans-serif;
+    box-sizing      : border-box;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: #000 url(../image/white-2484120.png);
+    background-size: cover;
+    background-attachment: fixed;
+    border-top: 6px solid transparent;
+}
+
+*{
+    line-height: 1.2;
+}
+
+main {
+    width      : 600px;
+    margin-left: 1%;
+    margin-top : 4vh;
+}
+
+aside {
+    display         : flex;
+    flex-direction  : column;
+    width           : 290px;
+    padding-top     : 20px;
+    color           : #fff;
+    background-color: #404043;
+}
+
+section {
+    border-style : solid;
+    border-width : 0 0 2px 0;
+    margin-bottom: 10px;
+}
+section>.content:last-child {
+    padding-bottom: 10px;
+    line-height:1.4;
+}
+img {
+    width        : 100%;
+    height       : 250px;
+    border-radius: 100%;
+}
+
+a {
+    text-decoration: none;
+    color          : inherit;
+}
+
+li{
+    line-height: 1.6;
+}
+
+.container{
+    background-color: #fff;
+    width: 900px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.template {
+    display         : flex;
+    flex-direction  : row-reverse;
+    background-color: #fff;
+    width           : 900px;
+    height          : auto;
+    padding         : 0;
+    border-style: groove;
+    border-width: 0px 0px 2px 0px;
+}
+
+
+.feild {
+    display       : flex;
+    flex-direction: row;
+    align-items   : center;
+    width         : 250px;
+    padding       : 10px;
+    color         : #fff;
+}
+
+.name {
+    font-family   : 'Righteous', cursive;
+    font-size     : 45px;
+    line-height   : 51px;
+    color         : #34393E;
+    text-transform: uppercase;
+}
+
+.heading {
+    font-size     : 30px;
+    font-weight   : 600;
+    line-height: 1.6;
+    color         : inherit;
+    text-transform: uppercase;
+}
+
+.contact {
+    font-size   : 18px;
+    font-weight : 300;
+    color       : #fff;
+    padding-left: 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.section-end {
+    border-style: none;
+}
+
+.feild-data {
+    font-size   : 16px;
+    font-weight : 400;
+    color       : #fff;
+    padding-left: 20px;
+}
+
+.job{
+    line-height: 2;
+}
+main li{
+    line-height: 1.8;
+}
+
+.last-child{
+    border: unset;
+}
+
+.about-body {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: justify;
+    letter-spacing: 0.2px;
+    padding-right: 10px;
+}
